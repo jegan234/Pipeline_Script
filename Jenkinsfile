@@ -11,7 +11,7 @@ pipeline {
                 }
         }
 
-	
+	<!== Github==>
         stage('Run Tests') {
             parallel {
                 stage('Test On Windows') {
